@@ -26,9 +26,21 @@
 } 
 
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--bg-100);
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+}
+
+body {
+  background-color: var(--bg-100)
+}
+
+html {
+  scroll-behavior: smooth;
 }

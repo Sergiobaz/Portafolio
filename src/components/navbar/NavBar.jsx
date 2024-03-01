@@ -1,14 +1,21 @@
-import { Darkmode } from "./Darkmode";
-import { Languaje } from "./Languaje";
-import { Menu } from "./Menu";
+import { Darkmode } from "./darkmode/Darkmode";
+import { Languaje } from "./langaje/Languaje";
+import { Menu } from "./menu/Menu";
+import styles from "./navbar.module.css";
 
 export const NavBar = () => {
   return (
-    <>
-      <div>LOGO</div>
-      <div><Languaje/></div>
-      <div><Darkmode/></div>
-      <div><Menu/></div>
-    </>
+    <div className={styles.container}>
+      <a href="#homepage">LOGO</a>
+      <div>
+        <Darkmode />
+      </div>
+      <div>
+        <Languaje />
+      </div>
+      <div>
+        <Menu />
+      </div>
+    </div>
   );
 };

@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    padding-top: 50px;
+    margin: 0px 18px 0px 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome {
+    margin-top: 40px;
+}
+
+.name {
+    margin-top: 40px;
+}
+
+.stack {
+    margin-bottom: 50px;
+}
+
+.text2 {
+    margin-top: 15px;
+}
+
+.calltoaction {
+margin-top: 50px;
+}

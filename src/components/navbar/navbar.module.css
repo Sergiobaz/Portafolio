@@ -1,0 +1,10 @@
+.container {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #6C6DD5;
+}
+
