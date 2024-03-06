@@ -1,10 +1,17 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 
 export const Darkmode = () => {
-  const [dark, setDark] = useState(false);
+  const [dark, setDark] = useState(() => {
+    const savedState = localStorage.getItem('dark');
+    return savedState ? JSON.parse(savedState) : '';
+  });
+
+  useEffect(() => {
+    localStorage.setItem('dark', JSON.stringify(dark));
+  }, [dark]);
 
   if (dark) {
     document.body.classList.add("dark");

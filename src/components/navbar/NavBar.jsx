@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Darkmode } from "./darkmode/Darkmode";
 import { Languaje } from "./langaje/Languaje";
 import { Menu } from "./menu/Menu";
