@@ -1,11 +1,9 @@
 .container {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin: 0rem 1rem 0rem 1rem;
-    padding-top: 3rem;
+height: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
 }
 
 .logo {
@@ -15,4 +13,58 @@
     align-items: center;
     height: 5rem;
     width: 5rem;
+}
+
+.laguaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.languajeIcons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.front_end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.front_endIcons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.back_end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_endIcons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+.devops {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.devopsIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
