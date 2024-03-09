@@ -1,18 +1,16 @@
 import styles from "./homepage.module.css";
 
-const HomePage = () => {
+const HomePage = ({dictionary}) => {
   return (
     <div id="homepage" className={styles.container}>
-      <h3 className={styles.welcome} >Welcome to My Portafolio!</h3>
+      <h3 className={styles.welcome} >{dictionary.home.welcome}</h3>
       <h1 className={styles.name} >Sergio Bazan</h1>
-      <h2 className={styles.stack}>Full Stack Developer</h2>
+      <h2 className={styles.stack}>{dictionary.home.stack}</h2>
       <p className={styles.text}>
-        {
-          "I'm a dedicated Developer with focus on backend development."
-        }
+      {dictionary.home.text1}
       </p>
-      <p className={styles.text2} >{"I'm passionate about creating efficient and scalable solutions that solve real-world problems."}</p>
-      <h3 className={styles.calltoaction} >{"Let's work together!"}</h3>
+      <p className={styles.text2} >{dictionary.home.text2}</p>
+      <h3 className={styles.calltoaction} >{dictionary.home.calltoaction}</h3>
     </div>
   );
 };

@@ -1,3 +1,4 @@
+
 import About from "@/components/about/About";
 import Contact from "@/components/contact/Contact";
 import HomePage from "@/components/homepage/HomePage";
@@ -9,14 +10,18 @@ export default async function Home({ params: { lang } }) {
   const dictionary = await import(`@/app/dictionaries/${lang}.json`).then(
     (m) => m.default
   );
+
+  
+
+
   return (
     <>
-      <NavBar />
-      <HomePage  />
-      <About  />
-      <Skills  />
-      <Proyects />
-      <Contact  />
+      <NavBar dictionary={dictionary} />
+      <HomePage dictionary={dictionary} />
+      <About dictionary={dictionary} />
+      <Skills dictionary={dictionary} />
+      <Proyects dictionary={dictionary}/>
+      <Contact dictionary={dictionary} />
     </>
   );
 }

@@ -10,9 +10,11 @@ const FRONT_END = [
   { name: "Html", src: "/Skills/html.png" },
   { name: "Css", src: "/Skills/css.png" },
   { name: "Tailwind", src: "/Skills/tailwind.png" },
-  { name: "React", src: "/Skills/react.png" },
+  { name: "React", src: "/Skills/react.svg" },
   { name: "Nextjs", src: "/Skills/nextjs.png" },
   { name: "Vite", src: "/Skills/vite.png" },
+  { name: "Axios", src: "/Skills/axios.svg" },
+  { name: "Redux", src: "/Skills/redux.svg" }
 ];
 
 const BACK_END = [
@@ -29,11 +31,11 @@ const DEVOPS = [
   { name: "Docker", src: "/Skills/docker.png" },
 ];
 
-const Skills = () => {
+const Skills = ({dictionary}) => {
   return (
     <div id="skills" className={styles.container}>
       <div className={styles.languaje}>
-        <h4>Languages and SuperSets</h4>
+        <h4>{dictionary.skills.p1}</h4>
         <div className={styles.languajeIcons} >
           {LANGAUJES.map((logo) => (
             <div key={logo.name} className={styles.logo}>

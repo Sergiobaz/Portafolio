@@ -1,10 +1,10 @@
-import Image from "next/image";
+
 import { Darkmode } from "./darkmode/Darkmode";
 import { Languaje } from "./langaje/Languaje";
 import { Menu } from "./menu/Menu";
 import styles from "./navbar.module.css";
 
-export const NavBar = () => {
+export const NavBar = ({dictionary}) => {
   return (
     <div className={styles.container}>
       <a href="#homepage">LOGO</a>
@@ -15,7 +15,7 @@ export const NavBar = () => {
         <Languaje />
       </div>
       <div>
-        <Menu />
+        <Menu dictionary={dictionary} />
       </div>
     </div>
   );
