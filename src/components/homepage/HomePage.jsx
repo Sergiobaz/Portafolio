@@ -1,10 +1,10 @@
-import Background from "../background/Background";
+
 import styles from "./homepage.module.css";
 
 const HomePage = ({ dictionary }) => {
   return (
     <div >
-      <Background/>
+      
       <div id="homepage" className={styles.container}>
         <h3 className={styles.welcome}>{dictionary.home.welcome}</h3>
         <h1 className={styles.name}>Sergio Bazan</h1>
