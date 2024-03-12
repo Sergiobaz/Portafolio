@@ -2,26 +2,8 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
 
 export const Languaje = () => {
-  /** 
-  const [handleHeight, setHandleHeight] = useState(false)
-
-  const handleClick = (heightY) => {
-    window.scrollTo({
-      top: heightY,
-      behavior: 'smooth'
-    })
-  };
-
-  useEffect(() => {
-    const actualHeight = window.pageYOffset || document.documentElement.scrollTop;
-    localStorage.setItem('actualHeight', actualHeight);
-    handleClick(actualHeight)
-  }, [handleHeight] )
- **/
-
   const pathname = usePathname();
   function changeLanguaje(path) {
     const arrayOfRoutes = path.split("/");
@@ -37,11 +19,7 @@ export const Languaje = () => {
 
   return (
     <div>
-      <Link
-        /**onClick={() => {setHandleHeight(true)}}**/ href={changeLanguaje(
-          pathname
-        )}
-      >
+      <Link scroll={false} href={changeLanguaje(pathname)}>
         ES | EN
       </Link>
     </div>

@@ -8,9 +8,14 @@ const Mobile = ({ item }) => {
 
   return (
     <div>
-      <button onClick={() => setOpen((prev) => !prev)}>menu</button>
+      <button
+        onClick={() => setOpen((prev) => !prev)}
+        className={styles.button}
+      >
+        <Image alt="menu" width={17} height={16} src={"/icons/menu.svg"} />
+      </button>
       {open && (
-        <div className={styles.container} >
+        <div className={styles.container}>
           {item.map((link) => (
             <MenuNavLink setOpen={setOpen} item={link} key={link.title} />
           ))}

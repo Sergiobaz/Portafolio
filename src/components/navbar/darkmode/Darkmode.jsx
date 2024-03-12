@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import styles from "./darkmode.module.css"
 
 export const Darkmode = () => {
   const [dark, setDark] = useState(() => {
@@ -20,12 +21,12 @@ export const Darkmode = () => {
   }
 
   return (
-    <button onClick={() => setDark((prev) => !prev)}>
+    <button className={styles.imgContainer} onClick={() => setDark((prev) => !prev)}>
       {dark ? (
-        <Image alt="" src="/icons8-dark-24.png" width={10} height={10} />
+        <Image  alt="" src="/icons/dark.svg" width={12} height={12} />
       ) : (
-        <Image alt="" src="/icons8-sun-30.png" width={10} height={10} />
-      )}{" "}
+        <Image alt="" src="/icons/light.svg" width={14} height={14} />
+      )}
     </button>
   );
 };

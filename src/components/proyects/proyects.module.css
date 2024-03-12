@@ -1,18 +1,46 @@
+
 .container {
-   
-    height: auto;
-    width: 100vw;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     z-index: 4;
+   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: auto;
+    
+}
+
+.proyect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 0;
+    border: 2px solid;
+   
 }
 
 .imagenContainer {
-    width: 288px;
-    height: 42vw;
     position: relative;
-   
+    width: 80vw; 
+    height: calc(80vw * 90 / 178);
+    border-left: 2px solid ;
+    border-right: 2px solid;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+
+.description {
+    font-size: smaller;
 }
 

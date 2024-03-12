@@ -10,3 +10,10 @@
     align-items: center;
     background-color: var(--bg-100);
 }
+
+.button {
+    border: none;
+    border-radius: 50%;
+    padding: 0.5em;
+    aspect-ratio: 1/1;
+}

@@ -1,0 +1,17 @@
+.imgContainer {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer img {
+    cursor: pointer;
+    transition: 10s;
+    
+}
+
