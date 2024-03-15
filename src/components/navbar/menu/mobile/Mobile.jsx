@@ -20,12 +20,20 @@ const Mobile = ({ item }) => {
             <MenuNavLink setOpen={setOpen} item={link} key={link.title} />
           ))}
           <div>
+            <a href="mailto:bazan.sergio2399@gmail.com" target="_blank">
+              <Image
+              src="/icons/mail.svg"
+              width={30}
+              height={30}
+              alt=""
+              />
+            </a>
             <a
               href="https://www.linkedin.com/in/sergio-bazan-27967b211/"
               target="_blank"
             >
               <Image
-                src="/logotipo-de-linkedin.png"
+                src="/icons/logotipo-de-linkedin.png"
                 width={30}
                 height={30}
                 alt=""
@@ -33,7 +41,7 @@ const Mobile = ({ item }) => {
             </a>
             <a href="https://github.com/Sergiobaz" target="_blank">
               {" "}
-              <Image src="/github.png" width={30} height={30} alt="" />
+              <Image src="/icons/github.png" width={30} height={30} alt="" />
             </a>
             <a href=""> Curriculum </a>
           </div>

@@ -1,0 +1,10 @@
+.link {
+    background-color: #6C6DD5;
+    width: 70vw;
+    box-sizing: border-box;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4vh;
+}
