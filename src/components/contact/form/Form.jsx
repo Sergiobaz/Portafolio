@@ -34,7 +34,7 @@ const Form = ({dictionary}) => {
       <label>{dictionary.contact.name}</label>
       <input className={styles.input} type="text" name="user_name" />
       <label>Email</label>
-      <input className={styles.input} type="email" name="user_email" />
+      <input className={styles.input} type="mail" name="user_mail" />
       <label>{dictionary.contact.message}</label>
       <textarea name="message" />
       <input className={styles.input} type="submit" value={dictionary.contact.submit} />
