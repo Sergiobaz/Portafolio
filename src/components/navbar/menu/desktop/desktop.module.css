@@ -1,0 +1,7 @@
+.links {
+    display: flex;
+}
+
+.link{
+    padding: 1rem;
+}

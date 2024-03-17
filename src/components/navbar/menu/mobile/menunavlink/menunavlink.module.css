@@ -1,5 +1,6 @@
-.link {
-    background-color: #6C6DD5;
+.links {
+    background-color: var(--bg-2);
+    
     width: 70vw;
     box-sizing: border-box;
     height: 8vh;
@@ -7,4 +8,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 4vh;
+}
+
+.link {
+    color: var(--bg-1);;
 }

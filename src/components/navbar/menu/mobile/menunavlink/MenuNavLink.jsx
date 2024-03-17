@@ -5,8 +5,8 @@ import Link from "next/link"
 
 const MenuNavLink = ({setOpen, item }) => {
   return (
-    <div className={styles.link} onClick={() => setOpen(false)} >
-      <Link href={item.path}>{item.title}</Link>
+    <div className={styles.links} onClick={() => setOpen(false)} >
+      <Link className={styles.link} href={item.path}>{item.title}</Link>
     </div>
   )
 }

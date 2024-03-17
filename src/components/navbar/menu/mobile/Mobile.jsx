@@ -12,7 +12,7 @@ const Mobile = ({ item }) => {
         onClick={() => setOpen((prev) => !prev)}
         className={styles.button}
       >
-        <Image alt="menu" width={17} height={16} src={"/icons/menu.svg"} />
+        <Image alt="menu" fill src={"/icons/menu.svg"} />
       </button>
       {open && (
         <div className={styles.container}>

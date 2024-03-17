@@ -1,11 +1,15 @@
-import Link from "next/link"
+import Link from "next/link";
+import styles from "./desktop.module.css";
 
-const Desktop = ({item}) => {
+const Desktop = ({ item }) => {
   return (
-    <div >
+    <div className={styles.links}>
       {item.map((link) => (
-        <Link href={link.path} key={link.title}>{link.title} </Link> 
-    ))}</div>
-  )
-}
-export default Desktop
+        <div key={link.title} className={styles.link}>
+          <Link href={link.path}>{link.title} </Link>
+        </div>
+      ))}
+    </div>
+  );
+};
+export default Desktop;
