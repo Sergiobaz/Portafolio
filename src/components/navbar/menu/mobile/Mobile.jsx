@@ -12,7 +12,7 @@ const Mobile = ({ item }) => {
         onClick={() => setOpen((prev) => !prev)}
         className={styles.button}
       >
-        <Image alt="menu" fill src={"/icons/menu.svg"} />
+        <Image alt="menu" width={30} height={30} src={"/icons/menu.svg"} />
       </button>
       {open && (
         <div className={styles.container}>
@@ -21,12 +21,7 @@ const Mobile = ({ item }) => {
           ))}
           <div>
             <a href="mailto:bazan.sergio2399@gmail.com" target="_blank">
-              <Image
-              src="/icons/mail.svg"
-              width={30}
-              height={30}
-              alt=""
-              />
+              <Image src="/icons/mail.svg" width={30} height={30} alt="" />
             </a>
             <a
               href="https://www.linkedin.com/in/sergio-bazan-27967b211/"
