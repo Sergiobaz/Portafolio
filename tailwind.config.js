@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily: {
+        fontFamily: {
         lato: ["Lato", "sans-serif"]
       }
     }

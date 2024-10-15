@@ -4,12 +4,24 @@ const B = ({ project, languaje }) => {
 
     <div className=" lg:flex flex-col justify-center items-center mt-6 hidden lg:mr-32">
       <div className=" h-52 sm:h-[300px] overflow-hidden rounded-[40px] shadow-2xl  shadow-gray-500  hover:shadow-gray-400 hover:transition-shadow">
+        <a href={project.href} target="_blank">
         <img
-          className="w-60 h-full object-cover sm:w-[320px]  "
+          className="w-60 h-full object-cover sm:w-[320px] cursor-pointer "
           src={project.photo}
-        />
+          />
+          </a>
       </div>
-      <h3 className="text-2xl font-semibold mt-6">{project.title}</h3>
+
+      <div className="flex mt-6 items-center justify-center space-x-5">
+          <a href={project.gitHref} target="_blank">
+            <img  src="/public/Footer/Vector.svg" alt="" />
+          </a>
+          <h3 className="text-2xl font-semibold ">{project.title}</h3>
+          <a href={project.href} target="_blank" className="mt-1">
+            <img className=" h-8 w-8" src="/public/Projects/icons/expand.svg" alt="" />
+          </a>
+        </div>
+        
     </div>
 
     <div key={project.title} className="">
@@ -40,12 +52,22 @@ const B = ({ project, languaje }) => {
 
     <div className=" flex flex-col justify-center items-center mt-6 lg:hidden">
       <div className=" h-52 sm:h-[300px] overflow-hidden rounded-[40px] shadow-2xl  shadow-gray-500  hover:shadow-gray-400 hover:transition-shadow">
+      <a href={project.href} target="_blank">
         <img
-          className="w-60 h-full object-cover sm:w-[320px]  "
+          className="w-60 h-full object-cover sm:w-[320px] cursor-pointer "
           src={project.photo}
-        />
+          />
+          </a>
       </div>
-      <h3 className="text-2xl font-semibold mt-6">{project.title}</h3>
+      <div className="flex mt-6 items-center justify-center space-x-5">
+          <a href={project.gitHref} target="_blank">
+            <img  src="/public/Footer/Vector.svg" alt="" />
+          </a>
+          <h3 className="text-2xl font-semibold ">{project.title}</h3>
+          <a href={project.href} target="_blank" className="mt-1 ">
+            <img  className=" h-8 w-8" src="/public/Projects/icons/expand.svg" alt="" />
+          </a>
+        </div>
     </div>
   </div>
   );

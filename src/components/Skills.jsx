@@ -1,9 +1,9 @@
 const Skills = ({ languaje }) => {
   return (
-    <div className=" flex flex-col justify-center items-center mt-24">
+    <div className=" flex flex-col justify-center items-center pt-24" id="skills">
       <div className="text-3xl font-semibold border-b px-28 pb-2">Skills</div>
       <div className="mt-8 text-2xl text-semibold">{languaje.skills.p}</div>
-      <div className=" flex bg-[#222222] p-3 px-6 rounded-2xl my-3 lg:space-x-10 lg:p-6 lg:px-10">
+      <div className=" flex  bg-[#222222] p-3 px-6 rounded-2xl my-3 space-x-4 lg:space-x-10 lg:p-6 lg:px-10">
         <img className="h-12 w-12" src="/Skills/js.svg" alt="" />
         <img className="h-12 w-12" src="/Skills/ts.svg" alt="" />
       </div>

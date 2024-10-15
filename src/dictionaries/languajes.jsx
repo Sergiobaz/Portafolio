@@ -45,6 +45,7 @@ export const LANGUAJES = {
       name: "Name",
       message: "Message",
       submit: "Send",
+      alert: "Message send!"
     },
   },
 
@@ -95,6 +96,7 @@ export const LANGUAJES = {
       name: "Nombre",
       message: "Mensaje",
       submit: "Enviar",
+      alert: "¡Mensaje enviado!"
     },
   },
 };

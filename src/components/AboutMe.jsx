@@ -1,6 +1,6 @@
 const AboutMe = ({ languaje }) => {
   return (
-    <div className=" mt-20 mx-10 ">
+    <div className=" pt-20 mx-10 " id="about">
       <div className="">
       <div className="border relative top-6 right-10 w-8 lg:w-52"></div>
       <div className="bg-white h-2 w-2 rounded-full relative top-5 right-2 lg:left-40"></div>

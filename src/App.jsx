@@ -19,7 +19,9 @@ function App() {
 
   return (
     <>
+    
       <NavBar
+  
         languaje={languaje}
         toggleLanguaje={toggleLanguaje}
       />
