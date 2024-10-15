@@ -14,7 +14,7 @@ const B = ({ project, languaje }) => {
 
       <div className="flex mt-6 items-center justify-center space-x-5">
           <a href={project.gitHref} target="_blank">
-            <img  src="/Footer/Vector.svg" alt="" />
+            <img  src="/Footer/github.svg" alt="" />
           </a>
           <h3 className="text-2xl font-semibold ">{project.title}</h3>
           <a href={project.href} target="_blank" className="mt-1">
@@ -61,7 +61,7 @@ const B = ({ project, languaje }) => {
       </div>
       <div className="flex mt-6 items-center justify-center space-x-5">
           <a href={project.gitHref} target="_blank">
-            <img  src="/Footer/Vector.svg" alt="" />
+            <img  src="/Footer/github.svg" alt="" />
           </a>
           <h3 className="text-2xl font-semibold ">{project.title}</h3>
           <a href={project.href} target="_blank" className="mt-1 ">
