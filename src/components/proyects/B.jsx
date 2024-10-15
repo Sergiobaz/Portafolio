@@ -14,11 +14,11 @@ const B = ({ project, languaje }) => {
 
       <div className="flex mt-6 items-center justify-center space-x-5">
           <a href={project.gitHref} target="_blank">
-            <img  src="/public/Footer/Vector.svg" alt="" />
+            <img  src="/Footer/Vector.svg" alt="" />
           </a>
           <h3 className="text-2xl font-semibold ">{project.title}</h3>
           <a href={project.href} target="_blank" className="mt-1">
-            <img className=" h-8 w-8" src="/public/Projects/icons/expand.svg" alt="" />
+            <img className=" h-8 w-8" src="/Projects/icons/expand.svg" alt="" />
           </a>
         </div>
         
@@ -61,11 +61,11 @@ const B = ({ project, languaje }) => {
       </div>
       <div className="flex mt-6 items-center justify-center space-x-5">
           <a href={project.gitHref} target="_blank">
-            <img  src="/public/Footer/Vector.svg" alt="" />
+            <img  src="/Footer/Vector.svg" alt="" />
           </a>
           <h3 className="text-2xl font-semibold ">{project.title}</h3>
           <a href={project.href} target="_blank" className="mt-1 ">
-            <img  className=" h-8 w-8" src="/public/Projects/icons/expand.svg" alt="" />
+            <img  className=" h-8 w-8" src="/Projects/icons/expand.svg" alt="" />
           </a>
         </div>
     </div>
