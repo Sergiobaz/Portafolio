@@ -1,0 +1,40 @@
+
+{
+    "navbar": {
+        "homepage": "Inicio",
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "proyects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "home": {
+        "welcome": "¡Bienvenido a Mi Portafolio!",
+        "stack": "Desarrollador Full Stack",
+        "text1": "Soy un dedicado desarrollador con enfoque en el desarrollo del backend.",
+        "text2": "Me apasiona crear soluciones eficientes y escalables que resuelvan problemas del mundo real.",
+        "calltoaction": "¡Trabajemos juntos!"
+    },
+    "about": {
+        "title": "Sobre mí",
+        "p1": "Soy un dinámico desarrollador full-stack impulsado por dos grandes pasiones: el desarrollo de software y la música.",
+        "p2": "Graduarme del Conservatorio Provincial de Tucumán con un promedio sobresaliente de 9.18/10 en estudios específicos de guitarra no solo demuestra mi dedicación y disciplina, sino que también subraya mi capacidad para buscar la excelencia en mis objetivos.",
+        "p3": "Como desarrollador full-stack, aplico este mismo nivel de compromiso y precisión a mi trabajo. Con un fuerte enfoque tanto en el desarrollo del backend como del frontend, logro crear sistemas organizados, eficientes y de alto rendimiento. Mis habilidades en el backend garantizan una arquitectura robusta y confiable, mientras que mi experiencia en el frontend se centra en optimizar la experiencia y funcionalidad del usuario."
+
+    },
+    "skills": {
+        "p1": "Lenguajes y SuperSets"
+    },
+    "proyects": {
+        "title": "Proyectos",
+        "pokedex": "Pokedex es un sitio web, donde consultando con Axios la API apokeapi, se muestran filtrados y ordeandos todos los pokemons existentes en dicha serie. En este proyecto desarrollado en React, se utilizó además las librerias React Router Dom Y Redux.",
+        "rickandmorty": "En este proyecto desarrollado en React, son mostrados todos los personajes de la serie Rick And Morty filtrados según el universo en el que aparecen. La información se gestiona con Axios y proviene de la API 'The Rick and Morty API'.",
+        "wheatherapp": "En esta aplicación, se solicita permiso al usuario para acceder a su ubicación, y se muestra el clima correspondiente a dicha ubicación.",
+        "infogalaxy": "Esta aplicación muestra información curiosa sobre el universo de forma aleatoria, y el fondo cambia cada vez que se actualiza la información."
+   }, 
+   "contact": {
+    "name": "Nombre",
+    "message": "Mensaje",
+    "submit": "Enviar"
+    
+}
+}

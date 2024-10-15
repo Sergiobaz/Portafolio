@@ -1,0 +1,39 @@
+{
+    "navbar": {
+        "homepage": "Home Page",
+        "about": "About",
+        "skills": "Skills",
+        "proyects": "Proyects",
+        "contact": "Contact"
+    },
+    "home": {
+        "welcome": "Welcome to My Portfolio!",
+        "stack": "Full Stack Developer",
+        "text1": "I'm a dedicated Developer with focus on backend development.",
+        "text2": "I'm passionate about creating efficient and scalable solutions that solve real-world problems.",
+        "calltoaction": "Let's work together!"
+    },
+    "about": {
+        "title": "About me",
+        "p1": "I'm a dynamic full-stack developer driven by two major passions: software development and music.",
+        "p2": "Graduating from the Conservatorio Provincial de Tucumán with an outstanding average of 9.18/10 in guitar-specific studies not only showcases my dedication and discipline but also underscores my ability to pursue excellence in my pursuits.",
+        "p3": "As a full-stack developer, I bring this same level of commitment and precision to my work. With a strong focus on both back-end and front-end development, I thrive in creating organized, efficient, and high-functioning systems. My back-end skills ensure robust and reliable architecture, while my front-end expertise centers on optimizing user experience and functionality."
+
+    },
+    "skills": {
+"p1": "Languages and SuperSets"
+    },
+    "proyects": {
+        "title": "Proyects",
+        "pokedex": "Pokedex is a website where, by consulting the apokeapi API with Axios, all existing Pokémon in that series are filtered and ordered. In this React project, the React Router Dom and Redux libraries were also used.",
+        "rickandmorty": "In this React-developed project, all characters from the Rick And Morty series are displayed, filtered according to the universe in which they appear. The information is managed with Axios and comes from 'The Rick and Morty API'.",
+        "wheatherapp": "In this app, the user is asked for permission to access their location, and the weather for the user's location is displayed.",
+        "infogalaxy": "This app displays random interesting facts about the universe, and the background changes each time the information is refreshed."
+
+    },
+    "contact": {
+        "name": "Name",
+        "message": "Message",
+        "submit": "Send"
+    }
+}
