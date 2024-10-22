@@ -9,12 +9,15 @@ export const LANGUAJES = {
     },
     home: {
       welcome: "Welcome to My Portfolio!",
-      stack: "Full Stack Developer",
+      stack: "Full Stack",
+      developer: "Developer",
       text1: "I'm a dedicated Developer with focus on backend development.",
       text2:
         "I'm passionate about creating efficient and scalable solutions that solve real-world problems.",
       calltoaction1: "Download resume",
       calltoaction2: "Projects",
+      cvPath: "/CV/BazanSergioATS - english.pdf",
+      cvName: "BazanSergioATS - english.pdf"
     },
     project: {
       title: "Proyects",
@@ -59,13 +62,16 @@ export const LANGUAJES = {
     },
     home: {
       welcome: "¡Bienvenido a Mi Portafolio!",
-      stack: "Desarrollador Full Stack",
+      stack: "Full Stack",
+      desarrollador: "Desarrollador",
       text1:
         "Soy un dedicado desarrollador enfocado en el desarrollo del backend.",
       text2:
         "Me apasiona crear soluciones eficientes y escalables que resuelvan problemas del mundo real.",
       calltoaction1: "Descagar CV",
       calltoaction2: "Proyectos",
+      cvPath: "/CV/BazanSergioATS - español.pdf",
+      cvName: "BazanSergioATS - español.pdf"
     },
     project: {
       title: "Proyectos",

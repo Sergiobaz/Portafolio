@@ -23,7 +23,7 @@ const Projects = ({ languaje }) => {
     },
     {
       id: 2,
-      title: "Rick and Morty",
+      title: "Rick&Morty",
       href: "http://rickandmortyuniverses0.netlify.app",
       gitHref: "https://github.com/Sergiobaz/RickAndMortyPage",
       photo: "/Projects/rickandmorty.png",
@@ -74,6 +74,9 @@ const Projects = ({ languaje }) => {
 
   return (
     <div className="mx-10 lg:mx-0" id="projects" >
+      <div className=" flex justify-center text-3xl font-semibold border-b mx-16 lg:mx-80 pb-1 pt- lg:pt-36 sm:text-6xl lg:mt-16">
+        <div className="">PORTFOLIO</div>
+      </div>
       {PROJECTS.map((project) => (
         <div className="lg:w-full flex justify-center" key={project.id}>
         {

@@ -57,7 +57,7 @@ const NavBar = ({ languaje, toggleLanguaje }) => {
           <a className=" border-b " href="#contact" onClick={toggleMenu}>
             {contact}
           </a>
-          <a className=" border-b ">{languaje.home.calltoaction1}</a>
+          <a className=" border-b " href={languaje.home.cvPath} download={languaje.home.cvName}>{languaje.home.calltoaction1}</a>
           <div className=" pt-10 flex justify-center mr-20 space-x-4 items-center">
             <a href={LINKS.gitHub} target="_blank">
               <img className="w-8 h-8 aspect-square" src={github} />

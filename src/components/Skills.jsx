@@ -14,7 +14,7 @@ const Skills = ({ languaje }) => {
       </div>
       <div className="text-2xl text-semibold">Front-end</div>
       <div className="lg:grid">
-        <div className=" flex flex-row justify-evenly flex-wrap space-x-2 mx-14 my-6 p-4  lg:space-x-4 lg:justify-self-center lg:w-[40%] bg-[#222222] rounded-2xl lg:p-10">
+        <div className=" flex flex-row justify-evenly flex-wrap space-x-2 mx-16 my-6 p-4  lg:space-x-4 lg:justify-self-center lg:w-[40%] bg-[#222222] rounded-2xl lg:p-10">
           <img className="h-12 w-12 lg:h-16 lg:w-16 my-2" src="/Skills/html.svg" alt="" />
           <img className="h-12 w-12 lg:h-16 lg:w-16 my-2" src="/Skills/css.svg" alt="" />
           <img className="h-12 w-12 lg:h-16 lg:w-16 my-2" src="/Skills/tailwind.svg" alt="" />
@@ -31,7 +31,7 @@ const Skills = ({ languaje }) => {
         <div className="bg-white h-1.5 w-1.5 rounded-full"></div>
       </div>
       <div className="text-2xl text-semibold mb-4">Back-end</div>
-      <div className="bg-[#222222] rounded-2xl flex flex-row justify-evenly flex-wrap p-4 space-x-2 lg:space-x-8 lg:p-6 lg:px-20  mx-14 my-6">
+      <div className="bg-[#222222] rounded-2xl flex flex-row justify-evenly flex-wrap p-4 space-x-2 lg:space-x-8 lg:p-6 lg:px-20  mx-16 my-6">
         <img className=" h-12 w-12 lg:h-16 lg:w-16 " src="/Skills/node.svg" alt="" />
         <img className=" h-12 w-12 lg:h-16 lg:w-16 " src="/Skills/express.svg" alt="" />
         <img className=" h-12 w-12 lg:h-16 lg:w-16 " src="/Skills/posgreql.svg" alt="" />

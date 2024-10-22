@@ -1,19 +1,19 @@
 const A = ({ project, languaje }) => {
   return (
-    <div className="mt-24 lg:grid lg:grid-cols-2 lg:w-4/6">
+    <div className="mt-24 lg:grid lg:grid-cols-2 w-5/6 lg:w-4/6">
       <div key={project.title} className="">
         <div className="">
           <div>
-            <h3 className=" text-2xl font-semibold mb-4 lg:mb-6 lg:text-3xl">
+            <h3 className=" text-2xl font-semibold mb-4 lg:mb-6 lg:text-3xl text-[#e7e7e7]">
               {languaje.words.project} {project.id}
             </h3>
             <p className="">{project.description}</p>
           </div>
           <div>
-            <h4 className="text-lg font-semibold mt-6 mb-2 lg:text-2xl lg:mt-20">
+            <h4 className="text-lg font-semibold mt-6 mb-2 lg:text-2xl lg:mt-20 text-[#e7e7e7]">
               {languaje.words.buildWith}
             </h4>
-            <div className=" flex flex-wrap items-center justify-evenly ">
+            <div className=" flex flex-wrap items-center justify-between ">
               {project.technologies.map((technologie) => (
                 <img
                   className="h-[5vw] lg:h-[5vh] my-2 "
@@ -41,7 +41,7 @@ const A = ({ project, languaje }) => {
           </a>
           <h3 className="text-2xl font-semibold ">{project.title}</h3>
           <a href={project.href} target="_blank" className="mt-1">
-            <img className=" h-8 w-8" src="/Projects/icons/expand.svg" alt="" />
+            <img className=" h-6 w-6" src="/Projects/icons/expand.svg" alt="" />
           </a>
         </div>
       </div>
